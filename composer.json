@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/twig-twig",
+    "description": "Tyhp type definitions for twig/twig 3.28.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.28.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/twig-twig-impl": "~3.28.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/twig-twig-impl"
+        }
+    }
+}
